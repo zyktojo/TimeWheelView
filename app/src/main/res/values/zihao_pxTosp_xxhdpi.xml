@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="px_18">9sp</dimen>
+    <dimen name="px_20">9.5sp</dimen>
+    <dimen name="px_22">10sp</dimen>
+    <dimen name="px_24">10.5sp</dimen>
+    <dimen name="px_26">11sp</dimen>
+    <dimen name="px_28">11.5sp</dimen>
+    <dimen name="px_30">12sp</dimen>
+    <dimen name="px_32">12.5sp</dimen>
+    <dimen name="px_34">13sp</dimen>
+    <dimen name="px_36">13.5sp</dimen>
+    <dimen name="px_38">14sp</dimen>
+    <dimen name="px_40">14.5sp</dimen>
+    <dimen name="px_42">15sp</dimen>
+    <dimen name="px_44">15.5sp</dimen>
+    <dimen name="px_46">16sp</dimen>
+    <dimen name="px_48">16.5sp</dimen>
+    <dimen name="px_50">17sp</dimen>
+    <dimen name="px_52">17.5sp</dimen>
+    <dimen name="px_54">18sp</dimen>
+    <dimen name="px_56">18.5sp</dimen>
+    <dimen name="px_58">19sp</dimen>
+    <dimen name="px_60">19.5sp</dimen>
+
+</resources>

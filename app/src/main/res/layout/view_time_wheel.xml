@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/time_view"
+    android:layout_width="match_parent"
+    android:layout_height="222dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/time_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/choose_time_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="left|center_vertical"
+            android:text="      取消"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/px_30" />
+
+        <Button
+            android:id="@+id/choose_time_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            android:text="确定      "
+            android:textColor="@color/color_ffcd64"
+            android:textSize="@dimen/px_30" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_below="@+id/time_two_button"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.aigestudio.wheelpicker.WheelPicker
+            android:id="@+id/wheel_day"
+            app:wheel_item_text_size="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.aigestudio.wheelpicker.WheelPicker
+            android:id="@+id/wheel_hour"
+            app:wheel_item_text_size="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.aigestudio.wheelpicker.WheelPicker
+            android:id="@+id/wheel_minute"
+            app:wheel_item_text_size="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/time_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/time_two_button"
+        android:background="@color/line_view_color" />
+</RelativeLayout>
